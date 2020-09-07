@@ -11,7 +11,8 @@ show aps #show active access-points
 disconnect-user #the ability to disconnect users
 {% endhighlight %}
 
-##For troubleshooting
+## For troubleshooting
+
 {% highlight ruby %}
 show log system
 {% endhighlight %}
