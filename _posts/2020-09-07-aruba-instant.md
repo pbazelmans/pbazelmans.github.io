@@ -10,3 +10,8 @@ show clients #show active clients and their role
 show aps #show active access-points
 disconnect-user {<addr>|all|mac <mac>| network <name>} #the ability to disconnect users
 {% endhighlight %}
+
+##For troubleshooting
+{% highlight ruby %}
+show log system
+{% endhighlight %}
