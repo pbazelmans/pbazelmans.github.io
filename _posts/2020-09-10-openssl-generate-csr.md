@@ -3,7 +3,9 @@ layout: post
 title:  "Generate a CSR with OpenSSL"
 tags: [openssl, csr]
 ---
-I work a lot with SSL certificates, so OpenSSL in Cygwin is one of the standard tools I use on a daily base. I have collected the commands which I use often on this page.
+Here a short post about how to generate a **certificate signing request** with the use of an OpenSSL script. After the CSR is generated, it can be signed by a Microsoft CA Server.
+
+In his example I have used a san.cfg file, which give me the ability to add SAN names in de CSR.
 
 {% highlight ruby %}
 #!/bin/sh
