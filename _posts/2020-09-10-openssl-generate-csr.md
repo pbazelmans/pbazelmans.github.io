@@ -2,6 +2,8 @@
 layout: post
 title:  "Generate a CSR with OpenSSL"
 tags: [openssl, csr]
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
 ---
 Here a short post about how to generate a **certificate signing request** with the use of an OpenSSL script. After the CSR is generated, it can be signed by a Microsoft CA Server.
 
