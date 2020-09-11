@@ -40,5 +40,5 @@ DNS.2   = bbb.example.com
 If you want to sign the CSR with your own Microsoft CA server, you can use `certutil.exe` with the following syntax.
 
 {% highlight ruby %}
-certreq -submit -attrib "CertificateTemplate:_WebServer2Years" server.csr server.cer server.p7b server.pfx
+certreq -submit -attrib "CertificateTemplate:CertTemplateName" server.csr server.cer server.p7b server.pfx
 {% endhighlight %}
