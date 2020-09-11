@@ -18,9 +18,7 @@ In his example I have used a san.cfg file, which give me the ability to add SAN 
 openssl req -config san.cfg -nodes -sha512 -new -newkey rsa:4096 -keyout private.key -out server.csr
 {% endhighlight %}
 
-## san.cfg
-
-Here the content of san.cfg
+Here the content of the `san.cfg` file.
 
 {% highlight ruby %}
 [ req ]
