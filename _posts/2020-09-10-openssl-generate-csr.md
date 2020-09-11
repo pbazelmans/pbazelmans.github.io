@@ -15,8 +15,7 @@ In his example I have used a san.cfg file, which give me the ability to add SAN 
 # I always forget the syntax
 # Can also substitute sha256 and rsa:2048, if needed
 
-openssl req -config san.cfg -nodes -sha512 -new -newkey rsa:4096
--keyout private.key -out server.csr
+openssl req -config san.cfg -nodes -sha512 -new -newkey rsa:4096 -keyout private.key -out server.csr
 {% endhighlight %}
 
 ## san.cfg
