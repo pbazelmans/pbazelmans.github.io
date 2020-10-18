@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Generate a CSR with OpenSSL"
+title:  "Generate a CSR with OpenSSLlll"
 subtitle: A simple way to generate a CSR
 tags: [openssl, csr]
 cover-img: /assets/img/path.jpg
