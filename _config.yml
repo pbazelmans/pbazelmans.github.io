@@ -164,7 +164,7 @@ cover-img: "/assets/img/path.png"
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
 #staticman:
-staticman_url: https://api.staticman.net/v3/entry/github/pbazelmans/pbazelmans.github.io/master/comments
+staticman_url: https://api.staticman.net/v3/entry/github/pbazelmans/pbazelmans.github.io/gh-pages/comments
 #  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
 #  endpoint   : # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
