@@ -108,14 +108,14 @@ layout: base
   <form method="POST" action="{{ site.staticman_url }}">
     <input name="options[redirect]" type="hidden" value="https://pbazelmans.github.io">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-      <label>Name</label>
+      <label>Name</label><br>
       <input name="fields[name]" type="text">
-      <label>E-mail (optional)</label>
+      <label>E-mail (optional)</label><br>
       <input name="fields[email]" type="email">
-      <label>Website (optional)</label>
+      <label>Website (optional)</label><br>
       <input name="fields[url]" type="url">
-      <label>Message</label>
-      <textarea style="width:60%" name="fields[message]" rows="12"></textarea>
+      <label>Message</label><br>
+      <textarea style="width:50%" name="fields[message]" rows="12"></textarea><br>
       <small>Comments will appear after moderation.</small>
       <button type="submit">Submit comment</button>
   </form>
