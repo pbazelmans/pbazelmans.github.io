@@ -141,7 +141,7 @@ cover-img: "/assets/img/path.png"
 
 # --- Comments --- #
 
-# staticman_url: https://api.staticman.net/v3/entry/github/pbazelmans/pbazelmans.github.io/gh-pages/comments
+staticman_url: https://api.staticman.net/v2/entry/github/pbazelmans/pbazelmans.github.io/gh-pages/comments
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 ##disqus: ""
